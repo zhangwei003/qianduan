@@ -83,7 +83,8 @@
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
-    position: relative
+    position: relative;
+    color: #333;
 }
 
 .l2 p .jbls {
@@ -198,10 +199,11 @@
     height: 44px;
     padding: 5px 10px;
     display: flex;
-    background-color: #fff;
+    background-color: #2C2D35;
     justify-content: center;
     align-items: center;
-    z-index: 2
+    color: #fff;
+    z-index: 2;
 }
 
 .min-version {
@@ -259,7 +261,7 @@
 .index-serch .i-ser-m {
     display: flex;
     height: 30px;
-    background-color: #eee;
+    background-color: #343640;
     border-radius: 15px;
     width: 100%;
     padding: 5px 0 5px 5px;
@@ -275,7 +277,7 @@
 .index-serch .i-ser-m input {
     border-width: 0;
     width: calc(100% - 44px);
-    background-color: #eee
+    background-color: #343640;
 }
 
 .index-serch .i-ser-m a {
@@ -408,7 +410,7 @@
 .active {
     background-color: rgba(250,84,28,.1)!important;
     border: 1px solid #ff6738!important;
-    background: url(../../img/tis-tag.png) right bottom no-repeat
+    background: url(/resource/img/tis-tag.png) right bottom no-repeat
 }
 
 .catelog-item a {
@@ -442,7 +444,7 @@
     width: 100vw;
     overflow-x: auto;
     z-index: 9;
-    background-color: #eee;
+    background-color: #2C2D35;
     padding: 0 10px;
     border-bottom: 1px solid rgba(196,196,196,.3)
 }
@@ -456,8 +458,9 @@
     width: 100vw;
     overflow-x: auto;
     z-index: 9;
-    background-color: #fff;
-    padding: 0 10px
+    background-color: #2C2D35;
+    padding: 0 10px;
+    color: #fff;
 }
 
 .disdff {
@@ -469,7 +472,8 @@
 
 .fixd-service-item-my a {
     line-height: 40px;
-    padding-top: 3px
+    padding-top: 3px;
+    color: #fff;
 }
 
 .fixd-service-item-my li {
@@ -480,7 +484,7 @@
     display: block;
     text-align: center;
     line-height: 45px;
-    color: #303133;
+    color: #fff;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap
@@ -659,7 +663,7 @@
 }
 
 .index-list {
-    background-color: #fff;
+    background-color: #2C2D35;
     border-radius: 5px;
     margin-top: 10px;
     position: relative;
@@ -1479,7 +1483,7 @@
     top: -5px;
     width: 15px;
     height: 15px;
-    background: url(../../img/delete@2x.png);
+    background: url(/resource/img/delete@2x.png);
     background-size: 15px 15px;
     background-repeat: no-repeat
 }
@@ -1492,7 +1496,7 @@
     padding: 0;
     top: 0;
     z-index: 2;
-    background: url(../../img/imgadd@2x.png);
+    background: url(/resource/img/imgadd@2x.png);
     background-size: 48px 48px;
     background-repeat: no-repeat;
     border-radius: 3px
@@ -1593,7 +1597,7 @@
 }
 
 .mui-content {
-    background-color: #f4f5f6
+    background-color: #2C2D35;
 }
 
 .detail-list h5 {
@@ -1977,13 +1981,14 @@
 
 .swiper-container {
     width: 100%;
-    height: 100%
+    height: 100%;
+    overflow-x: scroll;
 }
 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #343640;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -2452,7 +2457,7 @@
     display: block;
     position: absolute;
     margin: -55px 10px 10px;
-    background-color: #fff;
+    background-color: #343640;
     border-radius: 5px;
     min-height: calc(100% - 135px);
     width: calc(100% - 20px)
@@ -2469,7 +2474,8 @@
     font-size: 16px;
     font-weight: 700;
     margin: 10px;
-    line-height: 30px
+    line-height: 30px;
+    color: #fff;
 }
 
 .help .con-box .data-cc {
@@ -3062,8 +3068,11 @@ h6 {
 }
 
 .search {
-    background-color: #fff;
-    margin: 0 5px
+    background-color: #2C2D35;
+    margin: 0 5px;
+    color: #fff;
+    overflow-y: scroll;
+    padding-bottom: 80px;
 }
 
 .search .top-title {
@@ -3106,7 +3115,9 @@ h6 {
 
 .search-box {
     top: 0;
-    padding: 5px 0
+    padding: 5px 0;
+    padding-bottom: 10px;
+    height: 54px;
 }
 
 .search-choose {
@@ -3207,7 +3218,9 @@ h6 {
 }
 
 .search-history {
-    margin: 0 5px 0
+    margin: 0 5px 0;
+    margin-top: 20px;
+    overflow-y: scroll;
 }
 
 .top44 {
@@ -3408,7 +3421,7 @@ h6 {
     background: -webkit-gradient(linear,right top,left top,from(#f7c7b5),to(#ffbe8f));
     background: -webkit-linear-gradient(right,#f7c7b5,#ffbe8f);
     background: -o-linear-gradient(right,#f7c7b5,#ffbe8f);
-    background: linear-gradient(-180deg,#ffeae2,#f3f3f3);
+    /* background: linear-gradient(-180deg,#ffeae2,#f3f3f3); */
     color: #994a15
 }
 
@@ -3546,7 +3559,7 @@ h6 {
 }
 
 .right-list-con .right-active {
-    background: url(../../img/tis-tag.png) right bottom no-repeat;
+    background: url(/resource/img/tis-tag.png) right bottom no-repeat;
     background-color: rgba(250,84,28,.1);
     border: 1px solid #fa541c
 }
@@ -3647,7 +3660,7 @@ h6 {
 }
 
 .share-box .title-ccx {
-    background: url(../../img/head@2x.png) 0 0 no-repeat;
+    background: url(/resource/img/head@2x.png) 0 0 no-repeat;
     background-size: 100% 100%;
     height: 90px;
     padding-top: 15px
@@ -3895,9 +3908,10 @@ h6 {
 }
 
 .push-lm-lixt {
-    background-color: #fff;
+    background-color: #343640;
     border-radius: 5px;
-    margin: 30px 0 0
+    margin: 30px 0 0;
+    color: #fff;
 }
 
 .push-lm-lixt li {
@@ -4110,7 +4124,7 @@ h6 {
 
 .my-top-list {
     padding: 25px 15px 0;
-    background-color: #fff
+    background-color: #2C2D35;
 }
 
 .my-top-list .my-top-art dd {
@@ -4145,7 +4159,7 @@ h6 {
 }
 
 .my-top-list .my-top-art dt p span:first-child {
-    color: #333;
+    color: #fff;
     font-size: 16px;
     margin-bottom: 5px;
     font-weight: 700
@@ -4158,7 +4172,7 @@ h6 {
 }
 
 .my-top-list .index-tip .left,.my-top-list .index-tip .right {
-    background-color: #f4f5f6
+    background-color: #343640;
 }
 
 .my-top-list .service-item .tab1 div {
@@ -4176,7 +4190,7 @@ h6 {
 }
 
 .my-bottom-list {
-    background-color: #f4f5f6
+    background-color: #2C2D35;
 }
 
 .my-bottom-list .service-item .tab2 {
@@ -4245,7 +4259,8 @@ h6 {
 }
 
 .list-data>label,.list-chart>label {
-    display: flex
+    display: flex;
+    color: #fff;
 }
 
 .list-data .list-data-text {
@@ -4353,7 +4368,7 @@ h6 {
 }
 
 .list-data-span .right-active {
-    background: url(../../img/b-tis-tag.png) right bottom no-repeat;
+    background: url(/resource/img/b-tis-tag.png) right bottom no-repeat;
     border: 1px solid #1890ff
 }
 
@@ -4373,7 +4388,7 @@ h6 {
 
 .search-h-font.search-hist ul li {
     background: rgba(196,196,196,.3);
-    color: #606266;
+    color: #fff;
     padding: 2px 5px 2px 0
 }
 
@@ -4429,7 +4444,7 @@ h6 {
 .new-tit-small h6 {
     display: block;
     font-size: 16px;
-    color: #303133;
+    color: #fff;
     font-weight: 700;
     border-left: 3px solid #1890ff;
     padding-left: 8px;
@@ -4649,7 +4664,8 @@ h6 {
 .search-box .back {
     position: fixed;
     top: 10px;
-    left: 5px
+    left: 5px;
+    color: #fff;
 }
 
 .search-res-ca {
@@ -5088,24 +5104,24 @@ h6 {
 
 .dbs_dei {
     padding: 15px;
-    background: url(../../img/dbs_dei@2x.png) 0 0 no-repeat;
+    background: url(/resource/img/dbs_dei@2x.png) 0 0 no-repeat;
     background-size: 100% 100%
 }
 
 .dbs_index {
     padding: 150px 0 0;
-    background: url(../../img/rzdbs_index@2x.png) 0 0 no-repeat;
+    background: url(/resource/img/rzdbs_index@2x.png) 0 0 no-repeat;
     background-size: 100%
 }
 
 .fws_index {
     padding: 150px 0 0;
-    background: url(../../img/rzfws_index@2x.png) 0 0 no-repeat!important;
+    background: url(/resource/img/rzfws_index@2x.png) 0 0 no-repeat!important;
     background-size: 100%!important
 }
 
 .fws_dei {
-    background: url(../../img/fws_bg@2x.png) 0 0 no-repeat!important;
+    background: url(/resource/img/fws_bg@2x.png) 0 0 no-repeat!important;
     background-size: 100% 170px!important
 }
 
@@ -5156,11 +5172,12 @@ h6 {
 
 .dbs_content {
     z-index: 2;
-    background: #fff;
+    background: #343640;
     border-radius: 10px;
     padding: 15px;
     margin-top: -20px;
-    margin: -20px 15px 0
+    margin: -20px 15px 0;
+    color: #fff;
 }
 
 .link_de {
@@ -5539,7 +5556,7 @@ h6 {
 
 .hcbg-list {
     padding: 0;
-    background: url(../../img/qzlistbg@2x.png) right 0 no-repeat;
+    background: url(/resource/img/qzlistbg@2x.png) right 0 no-repeat;
     background-size: 116px 96px;
     background-color: #fff
 }
@@ -5597,7 +5614,7 @@ h6 {
 }
 
 .yxfwslb {
-    background: url(../../img/fwslist@2x.png) right 0 no-repeat;
+    background: url(/resource/img/fwslist@2x.png) right 0 no-repeat;
     background-size: 100% 100%
 }
 
@@ -5619,7 +5636,7 @@ h6 {
 }
 
 .yxfwlb {
-    background: url(../../img/fwslb@2x.png) right 0 no-repeat;
+    background: url(/resource/img/fwslb@2x.png) right 0 no-repeat;
     background-size: 100% 100%
 }
 
@@ -5854,7 +5871,7 @@ h6 {
     left: 0;
     width: 100%;
     height: 24px;
-    background: url(../../img/~@2x.png) 0 0 no-repeat;
+    background: url(/resource/img/~@2x.png) 0 0 no-repeat;
     background-size: 100% 100%
 }
 
