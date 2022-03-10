@@ -84,7 +84,7 @@
     line-height: 30px;
     font-weight: 700;
     position: relative;
-    color: #333;
+    color: #fff;
 }
 
 .l2 p .jbls {
@@ -118,7 +118,7 @@
 .empty img {
     margin: 0 auto;
     width: 70%;
-    padding-top: 35%
+    padding-top: 0;
 }
 
 .empty p {
@@ -636,7 +636,8 @@
 
 .service-item {
     margin-top: 10px;
-    min-height: 100vh
+    /* min-height: 100vh; */
+    margin-bottom: 0px;
 }
 
 .service-item h4 img {
@@ -862,7 +863,8 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     padding: 10px 10px 0;
-    font-weight: 700
+    font-weight: 700;
+    color: #fff;
 }
 
 .index-list .list-href img {
@@ -1268,7 +1270,7 @@
 }
 
 .push-content .form-list .mui-input-row label {
-    color: #303133;
+    color: #fff;
     display: flex;
     line-height: 20px
 }
@@ -1574,7 +1576,7 @@
 
 .detail-list {
     margin-bottom: 10px;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 10px;
     border-radius: 5px
 }
@@ -1598,12 +1600,13 @@
 
 .mui-content {
     background-color: #2C2D35;
+    /* color: #fff; */
 }
 
 .detail-list h5 {
     font-size: 16px;
     font-weight: 700!important;
-    color: #303133;
+    color: #fff;
     line-height: 25px
 }
 
@@ -1626,7 +1629,7 @@
     display: block;
     position: relative;
     font-size: 16px;
-    color: #333;
+    color: #fff;
     font-weight: 700;
     overflow: hidden
 }
@@ -1847,7 +1850,7 @@
 .user-table li {
     position: relative;
     font-size: 14px;
-    background-color: #fff;
+    background-color: #2C2D35;
     border-radius: 5px
 }
 
@@ -1881,7 +1884,8 @@
 .login .login-tit {
     font-size: 24px;
     margin: 16px 28px;
-    position: relative
+    position: relative;
+    color: #fff;
 }
 
 .login .mui-input-row {
@@ -2467,7 +2471,8 @@
     font-size: 16px;
     font-weight: 700;
     margin: 10px;
-    line-height: 30px
+    line-height: 30px;
+    color: #fff;
 }
 
 .help .con-box .title-des {
@@ -3621,7 +3626,8 @@ h6 {
     right: 10px;
     width: 50px;
     text-align: center;
-    color: #606266
+    color: #606266;
+    font-size: 14px;
 }
 
 .share-box-par,.fxts-box-par,.msg-box-par,.band-box-par {
@@ -3635,8 +3641,9 @@ h6 {
 
 .share-box {
     border-radius: 15px;
-    background-color: #f4f5f6;
-    padding-bottom: 1px
+    background-color: #343640;
+    padding-bottom: 1px;
+    color: #fff;
 }
 
 .share-box .fxts-icon {
@@ -4497,7 +4504,7 @@ h6 {
 .new-ser-ser .detail-detail span {
     display: block;
     font-size: 14px;
-    color: #303133;
+    color: #fff;
     width: 100%;
     padding: 4px 0
 }
@@ -4511,7 +4518,8 @@ h6 {
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap
+    white-space: nowrap;
+    color: #fff;
 }
 
 .detail-list .new-ser-ser .detail-detail {
@@ -4670,7 +4678,7 @@ h6 {
 
 .search-res-ca {
     padding: 8px 10px;
-    background-color: #fff
+    /* background-color: #fff */
 }
 
 .search-res-ca .fuwucc {
@@ -4691,12 +4699,13 @@ h6 {
 }
 
 .title-sees {
-    display: flex
+    display: flex;
+    color: #fff;
 }
 
 .title-fds {
     padding: 8px 10px;
-    background-color: #fff
+    /* background-color: #fff */
 }
 
 .title-fdsbb {
@@ -5063,7 +5072,8 @@ h6 {
 .dbs_list {
     display: flex;
     border-radius: 5px;
-    background-color: #fff
+    /* background-color: #343640; */
+    color: #fff;
 }
 
 .dbs_list .tx {
@@ -5088,7 +5098,8 @@ h6 {
 .dbs_list .r_text .t1 {
     font-size: 16px;
     line-height: 30px;
-    font-weight: 700
+    font-weight: 700;
+    color: #fff;
 }
 
 .dbs_list .r_text .t2 {
@@ -5418,7 +5429,7 @@ h6 {
 }
 
 .npro-list-bt div span {
-    color: #303133;
+    color: #fff;
     font-size: 14px
 }
 
@@ -5558,7 +5569,7 @@ h6 {
     padding: 0;
     background: url(/resource/img/qzlistbg@2x.png) right 0 no-repeat;
     background-size: 116px 96px;
-    background-color: #fff
+    /* background-color: #fff */
 }
 
 .hcbg-list h5 {
@@ -5610,7 +5621,7 @@ h6 {
 
 .dbs_list_index {
     display: flex!important;
-    background-color: #f4f5f6
+    /* background-color: #f4f5f6 */
 }
 
 .yxfwslb {
