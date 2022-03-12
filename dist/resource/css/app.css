@@ -664,7 +664,7 @@
 }
 
 .index-list {
-    background-color: #2C2D35;
+    background-color: #36373F;
     border-radius: 5px;
     margin-top: 10px;
     position: relative;
@@ -4218,7 +4218,7 @@ h6 {
     margin-left: 25px;
     position: relative;
     display: block;
-    color: #303133
+    color: #fff;
 }
 
 .my-service-cat .my-service-span .iconmy {
