@@ -2756,7 +2756,8 @@
 .login .back-btn {
     position: fixed;
     top: 10px;
-    left: 10px
+    left: 10px;
+    color: #fff;
 }
 
 #telegram-login-huichan_bot {
