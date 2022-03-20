@@ -4925,16 +4925,18 @@ h6 {
 }
 
 .ID .copu-txt {
-    background-color: #fff;
-    width: 70%
+    /* background-color: #fff; */
+    width: 70%;
+    color: #fff;
 }
 
 .ID .copy-b {
     display: inline-block;
     height: 30px;
     text-align: center;
-    background-color: #ededed;
-    width: 30%
+    /* background-color: #ededed; */
+    width: 30%;
+    color: #fff;
 }
 
 .contentpp .mui-radio {
